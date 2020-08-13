@@ -1,9 +1,9 @@
-package Palindrome
+package palindrome
 
 import (
 	rev "github.com/shawnwollenberg/goReverseString"
 )
 
-func Palindrome(str string) bool {
+func palindrome(str string) bool {
 	return str == rev.Reversestring(str)
 }
